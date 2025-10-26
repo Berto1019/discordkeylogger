@@ -11,4 +11,4 @@ pythonw.exe your_script_name.py
 
 In order to kill:
 taskkill /IM pythonw.exe /F
-tasklist /FI "IMAGENAME eq pythonw.exe"
+taskkill /PID [PID_NUMBER] /F
