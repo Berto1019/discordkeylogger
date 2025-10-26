@@ -8,8 +8,4 @@ Edit webhook URL to webhook
 By default it is as a link to major tom
 
 Run in background:
-pythonw.exe your_script_name.py
-
-In order to kill:
-taskkill /IM pythonw.exe /F
-taskkill /PID [PID_NUMBER] /F
+pythonw.exe main.py
